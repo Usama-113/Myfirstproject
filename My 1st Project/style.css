@@ -1,0 +1,89 @@
+h3,p{
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display:block   
+}
+.fixed{
+    position:fixed;
+    max-width:30%;
+    left: 15%;
+}
+.about_name{
+    font-size: 3rem;
+    padding-top: 3rem; 
+}
+.about_title{
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+.about_description{
+    font-size: 1.25rem;
+}
+.nav_menu{
+    padding: 10rem 0rem;
+}
+.nav_item{
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.social_content{
+    display: flex;
+}
+.social_img{
+    width: 50px;
+}
+.scrolling{
+    position: absolute;
+    max-width: 30%;
+    left:55%;
+    right: 15%;
+    top: 1.5rem
+    
+}
+.skill_data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight:600;
+    height: 3rem;
+    border: 1px black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .3rem;
+}
+.skill_icon{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.skill_bar{
+    background-color: black;
+    position: absolute;
+    height: .1rem;
+    width: 100%;
+    left: 1rem;
+    bottom: 2rem;
+}
+.skill_html{
+    width: 85%;
+}
+.skill_css{
+    width: 75%;
+}
+.skill_js{
+    width: 65%;
+}
+.skill_node{
+    width: 50%;
+}
